@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.class_header {
+    background-color: #1d1d47;
+    display: flex;
+}
+
+.class_menu {
+    color: yellow;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 4px 2px 4px 2px;
+    margin: 4px 15px;
+    text-transform: uppercase;
+    color: white;
+        
+}
+.class_menucon{
+    padding: 20px;
+    color: white;
+}
