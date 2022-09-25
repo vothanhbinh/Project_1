@@ -38,17 +38,3 @@ a{
      display: flex;
 }
 
-.td__item {
-	background-color: red;
-}
-
-.td__description {
-	font-size: 15px;
-	font-family: "Arial", sans-serif;
-}
-
-.td__title {
-	font-size: 20px;
-	font-family: "Arial", sans-serif;
-	font-weight: bold;
-}
