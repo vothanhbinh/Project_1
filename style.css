@@ -1,26 +1,54 @@
-body {
+body{
     margin: 0;
+}   
+.header_swrap{
+    background-image: url("https://uyendo0203.github.io/vng/images/bg-header.png");
+}
+.container{
+    display: flex;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.class_header {
-    background-color: #1d1d47;
-    display: flex;
-}
 
-.class_menu {
-    color: yellow;
-    display: flex;
+.class_logo{
+    margin: 10px;
+}
+.menu_header{
     list-style: none;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    
 }
 
-li {
+.menucon_header{
     margin: 4px 2px 4px 2px;
-    margin: 4px 15px;
-    text-transform: uppercase;
-    color: white;
-        
+    padding: 10px;
 }
-.class_menucon{
-    padding: 20px;
+a{
     color: white;
+}
+
+.td {
+	background: #f2f4f7;
+	margin-top: 23px;
+	padding-bottom: 30px;
+     display: flex;
+}
+
+.td__item {
+	background-color: red;
+}
+
+.td__description {
+	font-size: 15px;
+	font-family: "Arial", sans-serif;
+}
+
+.td__title {
+	font-size: 20px;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
 }
