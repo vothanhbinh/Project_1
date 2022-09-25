@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }   
-.header_swrap{
+.header{
     background-image: url("https://uyendo0203.github.io/vng/images/bg-header.png");
 }
 .container{
@@ -12,10 +12,10 @@ body{
 }
 
 
-.class_logo{
+.header__logo{
     margin: 10px;
 }
-.menu_header{
+.header__menu{
     list-style: none;
     color: white;
     text-transform: uppercase;
@@ -23,18 +23,10 @@ body{
     
 }
 
-.menucon_header{
+.header__menu-item{
     margin: 4px 2px 4px 2px;
     padding: 10px;
 }
 a{
     color: white;
 }
-
-.td {
-	background: #f2f4f7;
-	margin-top: 23px;
-	padding-bottom: 30px;
-     display: flex;
-}
-
